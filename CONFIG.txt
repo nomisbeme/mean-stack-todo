@@ -1,2 +1,6 @@
 # Add the following to /opt/bitnami/apache2/conf/bitnami/bitnami-apps-prefix.conf
 # Include "/opt/bitnami/apps/mean-stack-todo/conf/httpd-prefix.conf"
+
+# Change this line in /opt/bitnami/mongodb/mongodb.conf
+# Turn on/off security.  Off is currently the default
+# noauth = true
